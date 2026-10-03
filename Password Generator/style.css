@@ -1,0 +1,62 @@
+body {
+    background-color: #051923;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#clr {
+    color: #678d58;
+}
+
+input {
+    display: block;
+    width: 200px;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#Pass-gen {
+    color: white;
+    background-color: rgb(46, 133, 46);
+    border: none;
+    border-radius: 7px;
+    padding: 8px 12px;
+    margin-top: 30px;
+}
+
+#Pass-gen:hover {
+    cursor: pointer;
+    box-shadow: rgba(63, 60, 60, 0.4) 0px 2px 4px, rgba(66, 40, 40, 0.3) 0px 7px 13px -3px, rgba(105, 38, 38, 0.2) 0px -3px 0px inset;
+}
+
+#pass1 {
+    height: 40px;
+    width: 200px;
+    background-color: #010e14;
+    border-radius: 12px;
+    margin-right: 10px;
+    padding-top: 17px;
+}
+
+#pass2 {
+    height: 40px;
+    width: 200px;
+    background-color: #010e14;
+    border-radius: 12px;
+    margin-left: 12px;
+    padding-top: 17px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+}
